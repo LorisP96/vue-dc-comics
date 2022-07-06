@@ -4,7 +4,7 @@
         <div class="logo">
             <img src="../assets/img/dc-logo.png" alt="brand-logo">
         </div>
-        <ul>
+        <ul class="flex-evenly">
             <li v-for="link, index in menuList" :key="index" :class="{'current': link.current}">
                 <a :href="link.url">
                     {{ link.text }}
@@ -100,8 +100,6 @@ header {
             margin: 0 auto;
         }
         ul {
-            display: flex;
-            justify-content: space-evenly;
             width: 60%;
             height: 100%;
             li {

@@ -3,7 +3,8 @@
     <PageHeader/>
 
     <main>
-
+      <MainContent/>
+      <MerchSection/>
     </main>
 
     <!-- <Footer/> -->
@@ -11,12 +12,16 @@
 </template>
 
 <script>
-import PageHeader from './components/PageHeader.vue'
+import PageHeader from './components/PageHeader.vue';
+import MainContent from './components/MainContent.vue';
+import MerchSection from './components/MerchSection.vue';
 
 export default {
   name: 'App',
   components: {
-    PageHeader
+    PageHeader,
+    MainContent,
+    MerchSection
   }
 }
 </script>
@@ -24,7 +29,4 @@ export default {
 <style lang="scss">
 @import './style/common.scss';
 @import './style/variables.scss';
-h1 {
-  color: $brand-color;
-}
 </style>
