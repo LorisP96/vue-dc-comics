@@ -1,7 +1,9 @@
 <template>
-    <div class="content-container">
-        Content goes here
-    </div>
+    <section>
+        <div class="content-container">
+            Content goes here
+        </div>
+    </section>
 </template>
 
 <script>
@@ -13,10 +15,13 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 @import '../style/variables.scss';
-
-.content-container {
-    color: white;
-    height: 130px;
+section {
     background-color: black;
+    .content-container {
+        color: white;
+        height: 130px;
+        width: 70%;
+        margin: 0 auto;
+    }
 }
 </style>
