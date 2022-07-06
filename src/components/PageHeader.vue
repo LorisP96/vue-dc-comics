@@ -91,12 +91,10 @@ export default {
 @import '../style/variables.scss';
 header {
     height: 130px;
-    background-color: pink;
     .flex-between {
-        width: 65%;
+        width: 70%;
         height: 100%;
         margin: 0 auto;
-        background-color: white;
         .logo > img {
             width: 80%;
             margin: 0 auto;
@@ -111,7 +109,7 @@ header {
                 height: 100%;
                 line-height: 130px;
                 a {
-                    font-size: 12px;
+                    font-size: 13px;
                     font-weight: 700;
                 }
 
