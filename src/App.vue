@@ -1,21 +1,27 @@
 <template>
   <div id="app">
-    <h1>Ciao</h1>
+    <PageHeader/>
+
+    <main>
+
+    </main>
+
+    <!-- <Footer/> -->
   </div>
 </template>
 
 <script>
-// import HelloWorld from './components/HelloWorld.vue'
+import PageHeader from './components/PageHeader.vue'
 
 export default {
   name: 'App',
   components: {
-    // HelloWorld
+    PageHeader
   }
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 @import './style/common.scss';
 @import './style/variables.scss';
 h1 {

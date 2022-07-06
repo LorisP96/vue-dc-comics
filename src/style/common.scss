@@ -9,3 +9,25 @@ img {
     width: 100%;
     display: block;
 }
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
