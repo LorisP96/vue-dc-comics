@@ -64,7 +64,7 @@ export default {
 @import '../style/variables.scss';
 
 .bg-comic {
-    color: #8f8f8f;
+    color: $brand-grey;
     height: 350px;
     background-image: url(../assets/img/footer-bg.jpg);
     background-repeat: no-repeat;

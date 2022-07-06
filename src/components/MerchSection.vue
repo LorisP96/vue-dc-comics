@@ -5,31 +5,31 @@
                 <div class="merch-img">
                     <img src="../assets/img/buy-comics-digital-comics.png" alt="">
                 </div>
-                <a href="#"><h3>DIGITAL COMICS</h3></a> 
+                <a href="#"><h4>DIGITAL COMICS</h4></a> 
             </div>
             <div class="merch-card">
                 <div class="merch-img">
                     <img src="../assets/img/buy-comics-merchandise.png" alt="">
                 </div>
-                <a href="#"><h3>DC MERCHANDISE</h3></a> 
+                <a href="#"><h4>DC MERCHANDISE</h4></a> 
             </div>
             <div class="merch-card">
                 <div class="merch-img">
                     <img src="../assets/img/buy-comics-subscriptions.png" alt="">
                 </div>
-                <a href="#"><h3>SUBSCRIPTION</h3></a> 
+                <a href="#"><h4>SUBSCRIPTION</h4></a> 
             </div>
             <div class="merch-card">
                 <div class="merch-img">
                     <img src="../assets/img/buy-comics-shop-locator.png" alt="">
                 </div>
-                <a href="#"><h3>COMIC SHOP LOCATOR</h3></a> 
+                <a href="#"><h4>COMIC SHOP LOCATOR</h4></a> 
             </div>
             <div class="merch-card">
                 <div class="merch-img">
                     <img src="../assets/img/buy-dc-power-visa.svg" alt="">
                 </div>
-                <a href="#"><h3>DC POWER VISA</h3></a> 
+                <a href="#"><h4>DC POWER VISA</h4></a> 
             </div>
         </div>
     </section>
@@ -53,6 +53,7 @@ section {
         margin: 0 auto;
         .merch-card {
             display: flex;
+            justify-content: center;
             align-items: center;
 
             .merch-img {

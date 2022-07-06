@@ -9,6 +9,7 @@
 
     <footer>
       <FooterTop/>
+      <FooterBottom/>
     </footer>
   </div>
 </template>
@@ -18,6 +19,7 @@ import PageHeader from './components/PageHeader.vue';
 import MainContent from './components/MainContent.vue';
 import MerchSection from './components/MerchSection.vue';
 import FooterTop from './components/FooterTop.vue';
+import FooterBottom from './components/FooterBottom.vue';
 
 export default {
   name: 'App',
@@ -25,7 +27,8 @@ export default {
     PageHeader,
     MainContent,
     MerchSection,
-    FooterTop
+    FooterTop,
+    FooterBottom
   }
 }
 </script>

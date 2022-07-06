@@ -16,7 +16,7 @@ export default {
 <style scoped lang="scss">
 @import '../style/variables.scss';
 section {
-    background-color: black;
+    background-color: $bg-main-color;
     .content-container {
         color: white;
         height: 130px;
