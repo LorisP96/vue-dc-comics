@@ -113,6 +113,7 @@ header {
 
                 &.current {
                     border-bottom: 7px solid $brand-color;
+                    color: $brand-color;
                 }
             }
         }
