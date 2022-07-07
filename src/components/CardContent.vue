@@ -30,6 +30,7 @@ export default {
     .card-name {
         font-size: 12px;
         margin-top: 10px;
+        margin-bottom: 20px;
         text-transform: uppercase;
     }
 }

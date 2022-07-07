@@ -5,31 +5,31 @@
                 <div class="merch-img">
                     <img src="../assets/img/buy-comics-digital-comics.png" alt="">
                 </div>
-                <a href="#"><h4>DIGITAL COMICS</h4></a> 
+                <a href="#"><h5>DIGITAL COMICS</h5></a> 
             </div>
             <div class="merch-card">
                 <div class="merch-img">
                     <img src="../assets/img/buy-comics-merchandise.png" alt="">
                 </div>
-                <a href="#"><h4>DC MERCHANDISE</h4></a> 
+                <a href="#"><h5>DC MERCHANDISE</h5></a> 
             </div>
             <div class="merch-card">
                 <div class="merch-img">
                     <img src="../assets/img/buy-comics-subscriptions.png" alt="">
                 </div>
-                <a href="#"><h4>SUBSCRIPTION</h4></a> 
+                <a href="#"><h5>SUBSCRIPTION</h5></a> 
             </div>
             <div class="merch-card">
-                <div class="merch-img">
+                <div class="merch-img resize">
                     <img src="../assets/img/buy-comics-shop-locator.png" alt="">
                 </div>
-                <a href="#"><h4>COMIC SHOP LOCATOR</h4></a> 
+                <a href="#"><h5>COMIC SHOP LOCATOR</h5></a> 
             </div>
             <div class="merch-card">
                 <div class="merch-img">
                     <img src="../assets/img/buy-dc-power-visa.svg" alt="">
                 </div>
-                <a href="#"><h4>DC POWER VISA</h4></a> 
+                <a href="#"><h5>DC POWER VISA</h5></a> 
             </div>
         </div>
     </section>
@@ -58,7 +58,10 @@ section {
 
             .merch-img {
                 width: 60px;
-                padding: 0 10px;
+                padding: 12px;
+            }
+            .resize {
+                padding: 16px;
             }
         }
     }

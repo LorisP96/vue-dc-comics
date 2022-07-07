@@ -2,6 +2,9 @@
     <section>
         <div class="content-container">
             <CardContent v-for="singleProduct, index in products" :key="index" :cardComponents="singleProduct" />
+            <div class="button-cont">
+                <button>LOAD MORE</button>
+            </div>
         </div>
     </section>
 </template>
@@ -97,6 +100,7 @@ export default {
 <style scoped lang="scss">
 @import '../style/variables.scss';
 section {
+    padding: 40px 0;
     background-color: $bg-main-color;
     width: 100%;
     .content-container {
@@ -105,6 +109,18 @@ section {
         margin: 0 auto;
         display: flex;
         flex-wrap: wrap;
+        .button-cont {
+            width: 100%;
+            text-align: center;
+            button {
+                color: white;
+                background-color: $brand-color;
+                padding: 12px 35px;
+                border: 0;
+                font-size: 16px;
+                font-weight: 700;
+            }
+        }
     }
 }
 </style>

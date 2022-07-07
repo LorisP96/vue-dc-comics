@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <PageHeader/>
-
+    <JumboBg/>
     <main>
       <MainContent/>
       <MerchSection/>
@@ -16,6 +16,7 @@
 
 <script>
 import PageHeader from './components/PageHeader.vue';
+import JumboBg from './components/JumboBg.vue';
 import MainContent from './components/MainContent.vue';
 import MerchSection from './components/MerchSection.vue';
 import FooterTop from './components/FooterTop.vue';
@@ -28,7 +29,8 @@ export default {
     MainContent,
     MerchSection,
     FooterTop,
-    FooterBottom
+    FooterBottom,
+    JumboBg
   }
 }
 </script>
