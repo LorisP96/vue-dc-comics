@@ -18,7 +18,7 @@
 
 <script>
 export default {
-  name: 'MainContent',
+  name: 'FooterBottom',
 }
 </script>
 
