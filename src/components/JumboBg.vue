@@ -18,7 +18,7 @@ export default {
 @import '../style/variables.scss';
 section {
     width: 100%;
-    height: 270px;
+    aspect-ratio: 4/1;
     background-image: url(../assets/img/jumbotron.jpg);
     background-repeat: no-repeat;
     background-size: cover;
